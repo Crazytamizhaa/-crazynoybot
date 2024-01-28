@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generateiveai as genai
+import google.generativeai as genai
 
 genai.configure(api_key="AIzaSyA83yuYtrFGGjdRTPfuNiZwtog-fTLEkkM")
 def ai(txt):
